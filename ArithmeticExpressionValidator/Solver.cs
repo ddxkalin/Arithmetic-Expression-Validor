@@ -5,6 +5,10 @@
         System.Tuple<double, ArithmeticExpressionParser.Model.IExpression,
             System.Collections.Generic.List<ArithmeticExpressionParser.Exceptions.ParsingException>>;
 
+    /// <summary>
+    /// Here is the place where our Solver is working with the thread and the queue. With the ParserResult
+    /// tuple, we are sending the result and after that, we are disposing the process.
+    /// </summary>
     internal class Solver : IDisposable
     {
         private readonly ExpressionParser _parser;

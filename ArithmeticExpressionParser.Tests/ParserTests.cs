@@ -18,7 +18,7 @@
             _random = new Random();
             _parser = new ExpressionParser();
             _mathArithmeticalTestsPair = new List<MathArithmeticalTestsPair>
-            {
+            { 
                 new MathArithmeticalTestsPair("228", (x, y, z) => 228),
                 new MathArithmeticalTestsPair("x+y", (x, y, z) => x + y),
                 new MathArithmeticalTestsPair("x-y", (x, y, z) => x - y),
@@ -75,7 +75,7 @@
                 testString = testString.Replace("z", z.ToString(CultureInfo.InvariantCulture));
 
                 var (item1, item2) = _parser.Parse(testString);
-                Assert.IsTrue(item2.Count == 0);
+                Assert.IsTrue(item2.Count == 0);            //TODO: something is wrong here with the Assert
                 Assert.AreEqual(test.Item2(x, y, z), item1.Evaluate());
             }
         }

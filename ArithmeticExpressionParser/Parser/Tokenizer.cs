@@ -2,6 +2,10 @@
 {
     using ArithmeticExpressionParser.Exceptions;
 
+    /// <summary>
+    /// Tokenizer works with the Token. Here is the logic about almost everything
+    /// that is using the current token which can be any of the values in the Token.cs
+    /// </summary>
     public class Tokenizer
     {
         private readonly List<ParsingException> _errors;

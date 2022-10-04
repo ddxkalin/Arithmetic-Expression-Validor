@@ -2,6 +2,9 @@
 {
     internal static class Presenter
     {
+        /// <summary>
+        /// Here are all the lines that are displayed in the console, when we start the application.
+        /// </summary>
         private static void Main()
         {
             using var solver = new Solver();

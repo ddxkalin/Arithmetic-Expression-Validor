@@ -4,6 +4,10 @@
     using ArithmeticExpressionParser.Exceptions;
     using System.ComponentModel;
 
+    /// <summary>
+    /// Here we are using the token to add the logic with the calculations about
+    /// our arithmetic parser.
+    /// </summary>
     public class ExpressionParser
     {
         private Tokenizer _tokenizer;
