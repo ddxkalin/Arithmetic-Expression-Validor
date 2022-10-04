@@ -4,7 +4,7 @@
 </h3>
 
 <p align="center">
-	<img alt="Last Commit" src="https://img.shields.io/github/last-commit/ddxkalin/DigitalLights_Assignment.svg?style=flat-square">
+	<img alt="Last Commit" src="https://img.shields.io/github/last-commit/ddxkalin/Arithmetic-Expression-Validor.svg?style=flat-square">
 	<img alt="Star" src="https://img.shields.io/badge/you%20like%20%3F-STAR%20ME-blue.svg?style=flat-square">
 </p>
 
@@ -55,6 +55,7 @@ applicable
 Clone this repository :
 
 ```
-git clone https://github.com/ddxkalin/DigitalLights_Assignment.git
-cd DigitalLights_Assignment
+git clone https://github.com/ddxkalin/Arithmetic-Expression-Validor.git
+cd Arithmetic-Expression-Validor
+
 ```
