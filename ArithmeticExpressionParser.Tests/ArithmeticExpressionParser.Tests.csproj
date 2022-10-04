@@ -19,4 +19,10 @@
   <ItemGroup>
     <ProjectReference Include="..\ArithmeticExpressionParser\ArithmeticExpressionParser.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Common\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\" />
+  </ItemGroup>
 </Project>
