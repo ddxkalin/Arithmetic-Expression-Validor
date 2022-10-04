@@ -1,11 +1,11 @@
 ﻿namespace ArithmeticExpressionParser.Model
 {
-   public class Add : IErrorExpression
+   public class Add : IExpression
     {
-        private readonly IErrorExpression _leftSide;
-        private readonly IErrorExpression _rightSide;
+        private readonly IExpression _leftSide;
+        private readonly IExpression _rightSide;
 
-        public Add(IErrorExpression leftSide, IErrorExpression ightSide)
+        public Add(IExpression leftSide, IExpression ightSide)
         {
             _leftSide = leftSide;
             _rightSide = ightSide;

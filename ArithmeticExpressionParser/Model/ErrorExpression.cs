@@ -1,6 +1,6 @@
 ﻿namespace ArithmeticExpressionParser.Model
 {
-    public class ErrorExpression : IErrorExpression
+    public class ErrorExpression : IExpression
     {
         public double Evaluate()
         {
