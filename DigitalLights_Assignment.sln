@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1703.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithmeticExpressionValidator", "ArithmeticExpressionValidator\ArithmeticExpressionValidator.csproj", "{931A7D50-04B6-4FAC-8C81-9F849637316E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithmeticExpressionParser", "ArithmeticExpressionParser\ArithmeticExpressionParser.csproj", "{15F3B76F-FC5C-4641-A75F-ABB5FE521525}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{931A7D50-04B6-4FAC-8C81-9F849637316E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{931A7D50-04B6-4FAC-8C81-9F849637316E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{931A7D50-04B6-4FAC-8C81-9F849637316E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F3B76F-FC5C-4641-A75F-ABB5FE521525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F3B76F-FC5C-4641-A75F-ABB5FE521525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F3B76F-FC5C-4641-A75F-ABB5FE521525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F3B76F-FC5C-4641-A75F-ABB5FE521525}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
