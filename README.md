@@ -1,11 +1,10 @@
 </h1>
-<h3 align="center">
-	Arithmetic Expression Calculator
+<h2 align="center">
+	Arithmetic Expression Calculator - Digital Lights
 </h3>
 
 <p align="center">
 	<img alt="Last Commit" src="https://img.shields.io/github/last-commit/ddxkalin/DigitalLights_Assignment.svg?style=flat-square">
-	<img alt="Licence" src="https://img.shields.io/github/license/ddxkalin/DigitalLights_Assignment.svg?style=flat-square">
 	<img alt="Star" src="https://img.shields.io/badge/you%20like%20%3F-STAR%20ME-blue.svg?style=flat-square">
 </p>
 
