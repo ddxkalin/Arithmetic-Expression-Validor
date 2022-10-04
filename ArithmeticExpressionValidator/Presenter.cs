@@ -21,6 +21,7 @@
             Console.WriteLine("                                                          ");
             Console.ResetColor();
 
+            //TODO: discusting but can't think of something to replace this while(true)....
             while (true)
             {
                 Console.Write("Enter Expression: ");
